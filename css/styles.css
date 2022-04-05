@@ -126,12 +126,33 @@ button {
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
+.contact-icon-mail {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
 
+.contact-icon-tel {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
 /* ___________________________________HERO____________________________________________ */
 .hero {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url('../images/bgd-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -192,6 +213,40 @@ button {
 }
 .feature-item:not(:last-child) {
   margin-right: 30px;
+}
+.feature-item-antenna::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 20px;
+  background-image: url(../images/antenna.svg);
+}
+.feature-item-clock::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 20px;
+  background-image: url(../images/clock.svg);
+  
+
+}
+.feature-item-diagram::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 20px;
+  background-image: url(../images/diagram.svg);
+}
+.feature-item-astronaut::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 20px;
+  background-image: url(../images/astronaut.svg);
 }
 /* ___________________________________WORK____________________________________________ */
 .work-title{
@@ -266,6 +321,39 @@ padding-bottom: 94px;
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
+/* ___________________________________CLIENTS____________________________________________ */
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.clients-icon-wrap {
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+.clients-item-icon:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* ___________________________________FOOTER____________________________________________ */
 
 .footer {
