@@ -315,10 +315,7 @@ padding-bottom: 94px;
   margin-bottom: 10px;
   text-align: center;
 }
-.team-item-wrap {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+
 .team-text {
   text-align: center;
 }
@@ -337,6 +334,36 @@ padding-bottom: 94px;
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
+/* ____________________ */
+
+
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-icon-blok {
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+
+.team-icon-wrap {
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+.team-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.team-item-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
 /* ___________________________________CLIENTS____________________________________________ */
 .clients-list {
   display: flex;
@@ -357,11 +384,7 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.clients-icon {
-  width: 106px;
-  height: 60px;
-  /* fill: #AFB1B8; */
-}
+
 
 .clients-icon-wrap {
   padding: 16px 32px;
@@ -371,15 +394,19 @@ padding-bottom: 94px;
   width: 170px;
   height: 92px;
 }
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}
+
 .clients-item-icon:not(:last-child) {
   margin-right: 30px;
 }
-.clients-link:hover,
-.clients-link:focus {
+.clients-link:hover {
   color: var(--accent-color);
-  }
-
-
+}
 /* ___________________________________FOOTER____________________________________________ */
 
 .footer {
@@ -453,7 +480,20 @@ padding-bottom: 94px;
 .foter-item:not(:last-child) {
   margin-bottom: 9px;
 }
+/* ____JOIN___ */
 
+
+.join-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--header-bg-color);
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
 /* _____________________СТРАНИЦА portfolio.html_____________________________________*/
 .header-portfolio {
   border-bottom: 1px solid #ECECEC;
