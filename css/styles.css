@@ -48,8 +48,9 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  /* outline: 1px solid red; */
 }
-/* outline: 1px solid red; */
+
 .list {
   list-style: none;
 }
@@ -232,7 +233,7 @@ padding-bottom: 94px;
 .team {
   background-color: #f5f4fa;
   padding-top: 94px;
-  padding-bottom: 124px;
+  padding-bottom: 94px;
 }
 
 .team-item-title {
@@ -240,12 +241,12 @@ padding-bottom: 94px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
 .team-item-wrap {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-text {
   text-align: center;
@@ -261,7 +262,6 @@ padding-bottom: 94px;
 .team .text {
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 30px;
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
@@ -346,17 +346,24 @@ padding-bottom: 94px;
 }
 .section-portfolio {
   padding-top: 94px;
-  padding-bottom: 114px;
+  padding-bottom: 94px;
+}
+
+.portfolio-item {
+margin-right: 30px;
+margin-bottom: 30px;
+}
+.portfolio-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.portfolio-item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 
 .portfolio-item-wrap {
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 padding: 20px 24px;
-margin-bottom: 30px;
-}
-.portfolio-item {
-  margin-right: 30px;
 }
 
 .project-title {
@@ -365,7 +372,6 @@ margin-bottom: 30px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
   margin-bottom: 4px;
 }
 .project-list {
@@ -376,7 +382,6 @@ margin-bottom: 30px;
 .project-text {
   font-size: 16px;
   line-height: 1.88;
-  margin-bottom: 20px;
 }
 /* Стилизация кнопок  */
 .button-list {
