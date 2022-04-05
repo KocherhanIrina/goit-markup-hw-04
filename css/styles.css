@@ -215,38 +215,54 @@ button {
   margin-right: 30px;
 }
 .feature-item-antenna::before {
+  background: #F5F4FA;
+  border-radius: 4px;
   display: block;
   content: '';
   width: 270px;
   height: 120px;
   margin-bottom: 20px;
-  background-image: url(../images/antenna.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/antenna\ 1.svg);
 }
 .feature-item-clock::before {
+  background: #F5F4FA;
+  border-radius: 4px;
   display: block;
   content: '';
   width: 270px;
   height: 120px;
   margin-bottom: 20px;
-  background-image: url(../images/clock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/clock\ 1.svg);
   
 
 }
 .feature-item-diagram::before {
+  background: #F5F4FA;
+  border-radius: 4px;
   display: block;
   content: '';
   width: 270px;
   height: 120px;
   margin-bottom: 20px;
-  background-image: url(../images/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/diagram\ 1.svg);
 }
 .feature-item-astronaut::before {
+  background: #F5F4FA;
+  border-radius: 4px;
   display: block;
   content: '';
   width: 270px;
   height: 120px;
   margin-bottom: 20px;
-  background-image: url(../images/astronaut.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/astronaut\ 1.svg);
 }
 /* ___________________________________WORK____________________________________________ */
 .work-title{
