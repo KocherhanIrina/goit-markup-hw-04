@@ -525,6 +525,7 @@ color: #AFB1B8;
   text-transform: uppercase;
   color: var(--header-bg-color);
 }
+
 .join-box .join-list {
   display: flex;
 }
