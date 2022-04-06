@@ -415,6 +415,10 @@ padding-bottom: 94px;
   padding-bottom: 60px;
   }
 
+  .footer-container {
+    display: flex;
+  }
+
 .logo-footer {
   text-decoration: none;
 }
@@ -482,6 +486,12 @@ padding-bottom: 94px;
 }
 /* ____JOIN___ */
 
+.join-list {
+  display: flex;
+  justify-content: center;
+ 
+  margin-top: 20px;
+}
 
 .join-title {
   font-weight: 700;
@@ -490,10 +500,8 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
   color: var(--header-bg-color);
 }
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
+
 /* _____________________СТРАНИЦА portfolio.html_____________________________________*/
 .header-portfolio {
   border-bottom: 1px solid #ECECEC;
