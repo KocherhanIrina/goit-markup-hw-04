@@ -371,14 +371,10 @@ color: #AFB1B8;
   fill: currentColor;
 }
 
-.team-icon-link:hover .team-icon, 
-.team-icon-link:focus .team-icon {
-  color: var(--header-bg-color);
-}
-
 .team-icon-link:hover,
 .team-icon-link:focus {
   background-color: #2196f3;
+  color: var(--header-bg-color);
 }
 
 /* ___________________________________CLIENTS____________________________________________ */
@@ -532,6 +528,11 @@ color: #AFB1B8;
 .join-list .join-item:not(:last-child) {
   margin-right: 10px;
 }
+
+.join-icon {
+  fill: var(--header-bg-color);
+}
+
 .join-list .join-link {
   display: flex;
   justify-content: center;
